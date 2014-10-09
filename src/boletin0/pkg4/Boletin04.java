@@ -8,7 +8,11 @@ public class Boletin04 {
         Semaforo sema1=new Semaforo();
         String valor=sema1.dameCor();
        System.out.println("cor antes darlle un valor "+valor);
-       
+       sema1.ponCor("verde");
+       valor=sema1.dameCor();
+       System.out.println("cor="+valor);
+       //outro xeito
+       System.out.println("cor:"+sema1.dameCor());
        
     }
     
